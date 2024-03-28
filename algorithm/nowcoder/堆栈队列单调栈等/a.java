@@ -1,4 +1,4 @@
-package nowcoder.二分三分01;
+package nowcoder.堆栈队列单调栈等;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.StreamTokenizer;
 
-public class f {
+public class a {
     static StreamTokenizer st = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
 
     static PrintWriter pw = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
@@ -22,40 +22,28 @@ public class f {
         return (int) st.nval;
     }
 
-    static int n, k;
+    static int n;
     static int[] arr;
 
     public static void main(String[] args) {
         n = nextInt();
-        k = nextInt();
+        int[] stack = new int[n];
         arr = new int[n];
-        for (int i = 0; i < arr.length; i++) {
+        int top = -1;
+        for (int i = 0; i < n; i++) {
             arr[i] = nextInt();
         }
-        int l = 1;
-        int r = 1000000000;
-        while (l <= r) {
-
-            int mid = l + ((r - l) >> 1);
-            if (check(mid))
-                l = mid + 1;
-            else
-                r = mid - 1;
+        int[] max = new int[n + 1];
+        max[n - 1] = arr[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            max[i] = Math.max(max[i + 1], arr[i]);
         }
-        // 如果check，增大看看，如果不，缩小。
-        pw.println(r);
-        pw.flush();
-    }
-
-    static boolean check(int x) {
-        int cnt = 0;
-        int[] newArr = arr.clone();
-        for (int i = 0; i < newArr.length; i++) {
-            while (newArr[i] >= x) {
-                newArr[i] -= x;
-                cnt++;
+        for (int i = 0; i < arr.length; i++) {
+            stack[++top] = arr[i];
+            while (top >= 0 && stack[top] > max[i + 1]) {
+                pw.write(stack[top--] + " ");
             }
         }
-        return cnt >= k;
+        pw.flush();
     }
 }

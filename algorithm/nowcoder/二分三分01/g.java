@@ -8,7 +8,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.StreamTokenizer;
 
-public class f {
+public class g {
     static StreamTokenizer st = new StreamTokenizer(new BufferedReader(new InputStreamReader(System.in)));
 
     static PrintWriter pw = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
@@ -22,40 +22,41 @@ public class f {
         return (int) st.nval;
     }
 
-    static int n, k;
+    static int n, m;
+
     static int[] arr;
 
     public static void main(String[] args) {
         n = nextInt();
-        k = nextInt();
+        m = nextInt();
         arr = new int[n];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < n; i++) {
             arr[i] = nextInt();
         }
-        int l = 1;
+        int l = 0;
         int r = 1000000000;
         while (l <= r) {
-
             int mid = l + ((r - l) >> 1);
             if (check(mid))
                 l = mid + 1;
             else
                 r = mid - 1;
         }
-        // 如果check，增大看看，如果不，缩小。
+        // 如果check说明满足了，可以试试更多套，反之减少.
         pw.println(r);
         pw.flush();
     }
 
     static boolean check(int x) {
-        int cnt = 0;
-        int[] newArr = arr.clone();
-        for (int i = 0; i < newArr.length; i++) {
-            while (newArr[i] >= x) {
-                newArr[i] -= x;
-                cnt++;
+        int aux = m > x ? x : m;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] < x) {
+                aux -= x - arr[i];
+            }
+            if (aux < 0) {
+                return false;
             }
         }
-        return cnt >= k;
+        return true;
     }
 }

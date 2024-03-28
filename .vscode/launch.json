@@ -1,0 +1,945 @@
+{
+  // 使用 IntelliSense 了解相关属性。
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "a4",
+      "request": "launch",
+      "mainClass": "a4",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a3",
+      "request": "launch",
+      "mainClass": "a3",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a2",
+      "request": "launch",
+      "mainClass": "a2",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1",
+      "request": "launch",
+      "mainClass": "a1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a10",
+      "request": "launch",
+      "mainClass": "nowcoder.优先队列并查集.a10",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a8",
+      "request": "launch",
+      "mainClass": "nowcoder.优先队列并查集.a8",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a5",
+      "request": "launch",
+      "mainClass": "nowcoder.优先队列并查集.a5",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a4",
+      "request": "launch",
+      "mainClass": "nowcoder.优先队列并查集.a4",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a3",
+      "request": "launch",
+      "mainClass": "nowcoder.优先队列并查集.a3",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a2",
+      "request": "launch",
+      "mainClass": "nowcoder.优先队列并查集.a2",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "n",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.n",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "m",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.m",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "a",
+      "request": "launch",
+      "mainClass": "CCF.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b",
+      "request": "launch",
+      "mainClass": "CCF.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c",
+      "request": "launch",
+      "mainClass": "CCF.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "e",
+      "request": "launch",
+      "mainClass": "CCF.e",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "j",
+      "request": "launch",
+      "mainClass": "CCF.j",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a174",
+      "request": "launch",
+      "mainClass": "Exercise.leetcode.a174",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a42",
+      "request": "launch",
+      "mainClass": "Exercise.leetcode.a42",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a62",
+      "request": "launch",
+      "mainClass": "Exercise.leetcode.a62",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a63",
+      "request": "launch",
+      "mainClass": "Exercise.leetcode.a63",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "t1747",
+      "request": "launch",
+      "mainClass": "Exercise.vjudge.t1747",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "_4计数排序",
+      "request": "launch",
+      "mainClass": "Exercise.三十日集训._4计数排序",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1024",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1024",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1025",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1025",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1026",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1026",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1027",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1027",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1028",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1028",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1050",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1050",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1051",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1051",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1052",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1052",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1053",
+      "request": "launch",
+      "mainClass": "Exercise.大盘.test.a1053",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "monoStack",
+      "request": "launch",
+      "mainClass": "Exercise.小算法.monoStack",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "permutation",
+      "request": "launch",
+      "mainClass": "Exercise.小算法.permutation",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "CF1A",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.CF1A",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "P1002",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.P1002",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "T23713",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.T23713",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "p1420",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.p1420",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "p1428",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.p1428",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "p1540",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.p1540",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "p1886",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.p1886",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "p1969",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.p1969",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "p1996",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.p1996",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "p5715",
+      "request": "launch",
+      "mainClass": "Exercise.洛谷.p5715",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1",
+      "request": "launch",
+      "mainClass": "Exercise.蓝桥.a1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "cut",
+      "request": "launch",
+      "mainClass": "Exercise.赛氪.第四届大学生算法设计与编程挑战赛.cut",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "CompareReview",
+      "request": "launch",
+      "mainClass": "WayToLearnAlgorithms.CompareReview",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(1)",
+      "request": "launch",
+      "mainClass": "cf.Bye2023.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(1)",
+      "request": "launch",
+      "mainClass": "cf.Bye2023.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(1)",
+      "request": "launch",
+      "mainClass": "cf.Bye2023.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(2)",
+      "request": "launch",
+      "mainClass": "cf.ccpc秦皇岛.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(2)",
+      "request": "launch",
+      "mainClass": "cf.ccpc秦皇岛.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b_demo",
+      "request": "launch",
+      "mainClass": "cf.ccpc秦皇岛.b_demo",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "cf429_b",
+      "request": "launch",
+      "mainClass": "cf.cf429_b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "cf889_dev2_1",
+      "request": "launch",
+      "mainClass": "cf.cf889_div2.cf889_dev2_1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "cf889_dev2_2",
+      "request": "launch",
+      "mainClass": "cf.cf889_div2.cf889_dev2_2",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "cf889_dev2_3",
+      "request": "launch",
+      "mainClass": "cf.cf889_div2.cf889_dev2_3",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(3)",
+      "request": "launch",
+      "mainClass": "cf.cf908_div1.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(3)",
+      "request": "launch",
+      "mainClass": "cf.cf908_div1.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(4)",
+      "request": "launch",
+      "mainClass": "cf.cf909_div3.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(4)",
+      "request": "launch",
+      "mainClass": "cf.cf909_div3.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(2)",
+      "request": "launch",
+      "mainClass": "cf.cf909_div3.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "d",
+      "request": "launch",
+      "mainClass": "cf.cf909_div3.d",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "e(1)",
+      "request": "launch",
+      "mainClass": "cf.cf909_div3.e",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(5)",
+      "request": "launch",
+      "mainClass": "cf.cf910_div2.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(5)",
+      "request": "launch",
+      "mainClass": "cf.cf910_div2.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(3)",
+      "request": "launch",
+      "mainClass": "cf.cf910_div2.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(6)",
+      "request": "launch",
+      "mainClass": "cf.cf917_div2.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(6)",
+      "request": "launch",
+      "mainClass": "cf.cf917_div2.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "educf152_dev2_1",
+      "request": "launch",
+      "mainClass": "cf.educf152_div2.educf152_dev2_1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "educf152_dev2_2",
+      "request": "launch",
+      "mainClass": "cf.educf152_div2.educf152_dev2_2",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "educf153_dev2_1",
+      "request": "launch",
+      "mainClass": "cf.educf153_div2.educf153_dev2_1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "educf153_dev2_2",
+      "request": "launch",
+      "mainClass": "cf.educf153_div2.educf153_dev2_2",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(7)",
+      "request": "launch",
+      "mainClass": "cf.educf160_div2.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(8)",
+      "request": "launch",
+      "mainClass": "cf.eduvf161_div2.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(7)",
+      "request": "launch",
+      "mainClass": "cf.eduvf161_div2.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(4)",
+      "request": "launch",
+      "mainClass": "cf.eduvf161_div2.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(9)",
+      "request": "launch",
+      "mainClass": "cf.pinely.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(8)",
+      "request": "launch",
+      "mainClass": "cf.pinely.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "cf.test",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "Dece12",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Dece12",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "Nov1",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Nov1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(10)",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Oct29.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(9)",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Oct29.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(5)",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Oct29.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "e(2)",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Oct29.e",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "f",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Oct29.f",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "i",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Oct29.i",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "j(1)",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Oct29.j",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "Sep20_average",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Sep20_average",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "Sep20_mergesort",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Sep20_mergesort",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "Sep20_quicksort",
+      "request": "launch",
+      "mainClass": "homeworkForSecond.Sep20_quicksort",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(11)",
+      "request": "launch",
+      "mainClass": "nowcoder.二分三分01.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(10)",
+      "request": "launch",
+      "mainClass": "nowcoder.二分三分01.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(6)",
+      "request": "launch",
+      "mainClass": "nowcoder.二分三分01.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "d(1)",
+      "request": "launch",
+      "mainClass": "nowcoder.二分三分01.d",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "e(3)",
+      "request": "launch",
+      "mainClass": "nowcoder.二分三分01.e",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "f(1)",
+      "request": "launch",
+      "mainClass": "nowcoder.二分三分01.f",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "g",
+      "request": "launch",
+      "mainClass": "nowcoder.二分三分01.g",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(12)",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(7)",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "d(2)",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.d",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "e(4)",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.e",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "f(2)",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.f",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "i(1)",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.i",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "k",
+      "request": "launch",
+      "mainClass": "nowcoder.堆栈队列单调栈等.k",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a1(1)",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a11",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a11",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a2",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a2",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a3",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a3",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a4",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a4",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a5",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a5",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a6",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a6",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a6_1",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a6_1",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a8",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a8",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a9",
+      "request": "launch",
+      "mainClass": "nowcoder.递归分治.a9",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(13)",
+      "request": "launch",
+      "mainClass": "nowcoder.集训营1.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(11)",
+      "request": "launch",
+      "mainClass": "nowcoder.集训营1.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "a(14)",
+      "request": "launch",
+      "mainClass": "大工之星.week12.a",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "b(12)",
+      "request": "launch",
+      "mainClass": "大工之星.week12.b",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "c(8)",
+      "request": "launch",
+      "mainClass": "大工之星.week12.c",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "d(3)",
+      "request": "launch",
+      "mainClass": "大工之星.week12.d",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "e(5)",
+      "request": "launch",
+      "mainClass": "大工之星.week12.e",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "f(3)",
+      "request": "launch",
+      "mainClass": "大工之星.week12.f",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "g(1)",
+      "request": "launch",
+      "mainClass": "大工之星.week12.g",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "gougushu",
+      "request": "launch",
+      "mainClass": "数论.gougushu",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "OnlineJudge10382",
+      "request": "launch",
+      "mainClass": "杂七杂八.OnlineJudge10382",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "Mex",
+      "request": "launch",
+      "mainClass": "杭电.Mex",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "chaojilouti",
+      "request": "launch",
+      "mainClass": "杭电.chaojilouti",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "muniudegushi",
+      "request": "launch",
+      "mainClass": "杭电.muniudegushi",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "shuta",
+      "request": "launch",
+      "mainClass": "杭电.shuta",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "yizhixiaomifeng",
+      "request": "launch",
+      "mainClass": "杭电.yizhixiaomifeng",
+      "projectName": "Record_61a28e44"
+    },
+    {
+      "type": "java",
+      "name": "zhexianfengepingmian",
+      "request": "launch",
+      "mainClass": "杭电.zhexianfengepingmian",
+      "projectName": "Record_61a28e44"
+    }
+  ]
+}
