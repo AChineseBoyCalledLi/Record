@@ -1,5 +1,7 @@
-import java.io.*;
-import java.util.*;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
+import java.io.StreamTokenizer;
 
 public class Main {
     static StreamTokenizer st = new StreamTokenizer(new InputStreamReader(System.in));
@@ -15,60 +17,19 @@ public class Main {
         return (int) st.nval;
     }
 
+    static long nextLong() throws Exception {
+        st.nextToken();
+        return (long) st.nval;
+    }
+
     public static void main(String[] args) throws Exception {
-        int n = nextInt();
-        int m = nextInt();
-        int ans = 0;
-        p = new int[n + 1];
-        kind = new int[n + 1];
-        init();
-        while (m-- > 0) {
-            int rel = nextInt();
-            int a = nextInt();
-            int b = nextInt();
-            if (a > n || b > n) {
-                ans++;
-            } else {
-                int fa = find(a);
-                int fb = find(b);
-                if (rel == 1) {
-                    if (fa == fb && (kind[a] - kind[b]) % 3 != 0) {
-                        ans++;
-                    } else if (fa != fb) {
-                        p[fa] = fb;
-                        kind[fa] = kind[b] - kind[a];
-                    }
-                } else {
-                    if (fa == fb && (kind[a] - kind[b] - 1) % 3 != 0)
-                        ans++;
-                    else if (fa != fb) {
-                        p[fa] = fb;
-                        kind[fa] = kind[b] - kind[a] + 1;
-                    }
-                }
-            }
-        }
-        pw.println(ans);
+        double cos = 1 / (4 * Math.sqrt(2)) * Math.sqrt(Math.sqrt(61) + 13);
+        double sin = 1 / (4 * Math.sqrt(2)) * Math.sqrt(-Math.sqrt(61) + 19);
+        double vb = Math.sqrt(3) / (4 * Math.sqrt(3) * cos + 4 * sin);
+        double va = 2 * sin / (Math.sqrt(3) * cos + sin);
+        pw.println(Math.asin(sin));
+        pw.println(va);
+        pw.println(vb);
         pw.flush();
     }
-
-    static int flag = 1;
-
-    static int find(int x) {
-        if (p[x] != x) {
-            int tmp = find(p[x]);
-            kind[x] += kind[p[x]];
-            p[x] = tmp;
-        }
-        return p[x];
-    }
-
-    static void init() {
-        for (int i = 0; i < p.length; i++) {
-            p[i] = i;
-        }
-    }
-
-    static int[] kind;
-    static int[] p;
 }
